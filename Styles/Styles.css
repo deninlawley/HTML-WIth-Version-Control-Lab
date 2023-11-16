@@ -1,0 +1,70 @@
+header {
+
+    padding: 1esm;
+    margin: auto;
+
+}
+
+body {
+
+    background-color: #27aae1;
+    text-align: center;
+    
+}
+
+nav {
+
+    text-align: center;
+    padding-bottom: 1em;
+
+}
+
+.center {
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    /* In a perfect world all things are centered*/
+
+}
+
+li {
+
+    border: 2pt solid black;
+    margin: auto;
+    padding: 1em;
+    display: inline;
+
+}
+
+h1 {
+
+    color: white;
+    font-size: 4em;
+    text-align: center;
+
+}
+
+h2 {
+
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    
+}
+
+#biography {
+
+    border-top: 2px solid black;
+    padding: 1em;
+
+}
+
+#portfolio {
+
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 1em;
+    text-align: center;
+
+}

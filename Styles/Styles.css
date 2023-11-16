@@ -29,10 +29,8 @@ nav {
 
 li {
 
-    border: 2pt solid black;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1em;
     padding: 1em;
     display: inline;
 

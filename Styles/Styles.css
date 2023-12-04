@@ -70,9 +70,9 @@ h2 {
 }
 
 .even {
-   color: red;
+   background-color: red;
 }
 
 .odd {
-   color: green;
+   background-color: green;
 }

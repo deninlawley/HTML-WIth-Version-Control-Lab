@@ -68,3 +68,11 @@ h2 {
     scale: 100% 100%;
 
 }
+
+.even {
+   color: red;
+}
+
+.odd {
+   color: green;
+}

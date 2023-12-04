@@ -9,6 +9,7 @@
     <meta charset="UTF-8">
     <link href="Styles/Styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <script defer src="JS/file.js"></script>
   </head>
   <style>
     body {
@@ -20,6 +21,12 @@
       <h1>
         Denin Lawley
     </h1>
+    <button onclick="myFunction()">Click me for a secret</button>
+    <script>
+    function myFunction() {
+    alert("I love you");
+    }
+</script>
       <nav class="center">
         <ul>
           <li><a href="#biography">Biography</a></li>
@@ -42,6 +49,22 @@
         <img src="Images/Denin.jpg" alt="Denin in the snow" width="100">
         <figcaption>Denin Lawley</figcaption>
     </figure>
+    <button onclick="buttonClick();">On a scale of 1 to 10, how cute am I?</button>
+    <script>
+      var i = 0;
+      function buttonClick() {
+          i++;
+          document.getElementById('inc').value = i;
+          if (i % 2 == 1) {
+              document.getElementById('inc').classList.remove('odd');
+              document.getElementById('inc').classList.add('even');
+          } else {
+              document.getElementById('inc').classList.remove('even');
+              document.getElementById('inc').classList.add('odd');
+          }
+      }
+    </script>
+  <input type="text" id="inc" value="0"></input>
     </section>
     <section id="portfolio">
       <h2>
@@ -60,6 +83,22 @@
         </tr>
       </table>
     </section>
+    <p id="oddoreven"></p>
+
+<ol>
+<script>
+for (let i = initialValue = 0; i <= stopValue; i = i + 1) {
+  // create a new <li> element with the createElement() document method
+    document.createElement(listItem).textContent = ''
+  // (your code here)
+  // set the text content of the new <li> element
+  listItem.textContent = 'text';
+  // append the <li> element to your ordered list
+  // (your code here)
+}
+</script>
+</ol>
+
     <section id="socialmedia">
         <h2>
             Social Media
@@ -78,8 +117,14 @@
     </section>
     <footer>
       <p>
-        Copyright Denin Lawley 2023
+        Copyright Denin Lawley 
       </p>
+      <p id="copyrightyear"></p>
+      <script>
+      const d = new Date();
+      let year = d.getFullYear();
+      document.getElementById("copyrightyear").innerHTML = year;
+      </script>
     </footer>
   </body>
 </html>
